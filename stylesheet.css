@@ -140,3 +140,19 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+
+
+.award-list {
+  list-style-type: disc;
+  font-size: 14px;
+}
+
+.award-list li {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.award-list .year {
+  float: right
+}
