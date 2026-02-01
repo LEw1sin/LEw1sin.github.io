@@ -91,9 +91,10 @@ h3 {
 /* Self author: bold but NOT italic (even inside <i>) */
 .self-author {
   font-family: 'Alegreya', serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   font-style: normal;
+  text-decoration: underline;
 }
 
 /* Paper title styles */
