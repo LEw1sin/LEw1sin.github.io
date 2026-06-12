@@ -115,6 +115,10 @@ h3 {
   font-weight: bold;
 }
 
+.award-venue a {
+  color: #ffa03c;
+}
+
 .strong-venue {
   color: #77BBDD;
   font-weight: bold;
