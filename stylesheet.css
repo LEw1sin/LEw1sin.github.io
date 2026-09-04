@@ -715,3 +715,208 @@ a:active {
 .strong-venue i {
   color: #77BBDD !important; /* Blue star */
 }
+
+/* ===== Mobile ===== */
+@media (max-width: 720px) {
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  body {
+    padding: 0 12px;
+    font-size: 15px;
+  }
+
+  tr, td, th, p, a, li {
+    font-size: 15px;
+  }
+
+  .page-wrap,
+  .page-wrap table {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    table-layout: fixed;
+  }
+
+  .page-wrap td {
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  td:has(> h2) {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+
+  .webname {
+    font-size: 24px;
+    padding-top: 8px;
+  }
+
+  h2,
+  details summary {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .papertitle {
+    font-size: 16px;
+  }
+
+  .author,
+  .strong-author,
+  .self-author {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Intro: stack bio then photo */
+  .intro-row,
+  .intro-row td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .intro-text {
+    padding: 16px 4px 8px !important;
+  }
+
+  .intro-photo {
+    padding: 8px 4px 16px !important;
+    text-align: center;
+  }
+
+  .intro-photo img {
+    width: 180px !important;
+    max-width: 180px !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .intro-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .coffee-talk-btn {
+    display: block;
+    margin: 12px auto 0 !important;
+  }
+
+  /* Publications: figure above text */
+  #publicationsList,
+  #publicationsList tbody,
+  #publicationsList tr {
+    display: block;
+    width: 100%;
+  }
+
+  #publicationsList td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 8px 4px !important;
+  }
+
+  #publicationsList td img {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .publications-note {
+    display: block;
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  .accepted-venue-detail {
+    white-space: normal;
+  }
+
+  /* Education / Employment: keep logo + text side by side */
+  .org-entry {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .org-entry td:first-child {
+    width: 56px !important;
+    padding: 12px 8px 12px 0 !important;
+    vertical-align: middle !important;
+  }
+
+  .org-entry td:first-child img {
+    width: 52px !important;
+    max-width: 52px !important;
+    height: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .org-entry td:last-child {
+    padding: 12px 0 12px 4px !important;
+    width: auto !important;
+  }
+
+  .dates {
+    float: none;
+    display: block;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  /* Miscellanea */
+  .misc-wrap {
+    padding: 0 4px !important;
+  }
+
+  .misc-block {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+
+  .award-list li {
+    overflow-wrap: break-word;
+  }
+
+  .award-list .year {
+    float: none;
+    display: inline;
+    margin-left: 8px;
+    white-space: nowrap;
+  }
+
+  .page-wrap p[style*="text-align:right"] {
+    text-align: left !important;
+  }
+
+  .modal-content {
+    width: 90% !important;
+    max-width: 90%;
+    margin: 16% auto;
+    box-sizing: border-box;
+  }
+
+  .academic-links {
+    width: 86%;
+    box-sizing: border-box;
+  }
+}
